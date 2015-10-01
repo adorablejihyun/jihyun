@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Document</title>
+	<style>
+		*{margin:0; padding:0}
+		ul{list-style:none;}
+		.banner
+		{border: 1px #f00 solid; 
+		height:300px;}
+		.banner li .on div{dispaly:block;}
+		.banner{text-align:center;}
+		.banner li{display:inline-block;}
+		.banner li>a{position:relative;
+		z-index: 1; display:block; width:10px; height:10px; top:260px;}
+		.banner li div{width:100%; position:absolute;
+		top:0; left:0;}
+		
+	
+	</style>
+</head>
+
+<body>
+	
+	<div class="banner">
+		<ul>
+			<li class="on">
+				<a href="#"><img src="images/icon-circle-3.png" /></a>
+				<div><img src="images/center.png" /></div>
+			</li>
+			<li><a href="#"><img src="images/icon-circle-2.png" /></a>
+				<div><img src="images/center.png" /></div>
+			</li>
+			<li><a href="#"><img src="images/icon-circle-3.png" /></a>
+				<div><img src="images/center.png" /></div>
+			</li>
+			<li><a href="#"><img src="images/icon-circle-3.png" /></a>
+				<div><img src="images/center.png" /></div>
+			</li>
+		</ul>
+		
+	</div>
+	
+	
+</body>
+</html>

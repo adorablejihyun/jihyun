@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+	</head>
+
+	<body>
+	
+	<fieldset>
+
+    <legend>회원정보입력</legend>
+    
+    <table border="1" width="100%">
+        <caption>* 표시는 필수 입력 사항입니다.</caption>
+        <colgroup>
+            <col style="width:100px">
+            <col>
+        </colgroup>
+        <tbody>
+        	<tr>
+                <th scope="row"><label for="userName"><strong>*사용자이름</strong></label></th>
+                <td><input type="text" id="userName"></td>
+            </tr>
+            <tr>
+                <th scope="row"><label for="userId"><strong>*아이디</strong></label></th>
+                <td><input type="text" id="userId">
+                	<input type="button" value="중복확인">
+                </td>
+            </tr>
+            <tr>
+                <th scope="row"><label for="userPw"><strong>*비밀번호</strong></label></th>
+                <td><input type="text" id="userPw">
+                    <ul>
+                        <li>영문, 숫자 조합으로 6~20자까지 사용가능합니다.</li>
+                        <li>첫 글자는 영문으로 설정해 주십시오.</li>
+                    </ul>
+                 </td>
+            </tr>    
+                
+            <tr>
+                <th scope="row"><label for="userPwcheck"><strong>*비밀번호확인</strong></label></th>
+                <td><input type="text" id="userPwcheck"></td>
+            </tr>
+
+            <tr>
+                <th scope="row"><label for="userEmail_f"><strong>*이메일</strong></label></th>
+                <td>
+                	<input type="text" id="userEmail_f"> @
+                	<label for="userEmail_s" style="display:none">이메일뒷주소</label>
+                	<input type="text" id="userEmail_s">
+                	<label for="userEmail_s" style="display:none">이메일뒷주소 선택</label>
+                	<select id="">
+                		<option value="">직접입력</option>
+                		<option value="">naver.com(네이버)</option>
+                		<option value="">nate.com(네이트)</option>
+                		<option value="">gmail.com(지메일)</option>
+                		<option value="">hotmail.com(핫메일)</option>
+                		<option value="">chol.com(천리안)</option>
+                		
+                	</select>
+                 </td>
+            </tr>
+            <tr>
+                <th scope="row"><label for="userphone"><strong>*연락처</strong></label></th>
+                <td>
+                	<input type="text" id="userphone_f"> -
+                	<label for="userphone_f" style="display:none">전화번호 앞자리</label>
+                	<input type="text" id="userphone_s"> -
+                	<label for="userphone_f" style="display:none">전화번호 뒷자리</label>
+                 </td>
+            </tr>
+            <tr>
+                <th scope="row"><label for="userHphone"><strong>*휴대폰</strong></label></th>
+                <td>
+                	<select name="" id="userHphone">
+                		<option value="">010</option>
+                		<option value="">011</option>
+                		<option value="">016</option>
+                		<option value="">017</option>
+                		<option value="">019</option>
+                	</select>
+                	<label for="userHphone_f" style="display:none">휴대전화 앞자리</label>
+                	<input type="text" id="userHphone_s"> -
+                	<label for="userHphone_f" style="display:none">휴대전화 뒷자리</label>
+                	<input type="text" id="userHphone_f">
+                 </td>
+            </tr>
+            <tr>
+                <th scope="row"><label for="address_f"><strong>*주소</strong></label></th>
+                <td>
+                	<input type="text" id="address_f"> - <input type="text" id="addresss">
+                	<input type="button" value="주소찾기"><br />
+                	<label for="address_de" style="display:none">상세주소</label>
+                	<input type="text" id="address_de"><br />
+                	<label for="address_de2" style="display:none">상세주소</label>
+                	<input type="text" id="address_de2">
+                 </td>
+            </tr>
+                    
+
+        </tbody>
+    </table>
+ 	<input type="button" value="회원가입">
+        </fieldset>
+	
+	</body>
+</html>

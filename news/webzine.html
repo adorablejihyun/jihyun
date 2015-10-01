@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>webzine</title>
+	
+	<style>
+		*{margin:0; padding:0;}
+		ul{list-style:none;}
+		.ir{font-size:0; 
+		position:absolute; 
+		left:-999999px; 
+		top:-999999px; 
+		overflow:hidden; 
+		width:0; 
+		height:0}
+		fieldset{border:0 none;}
+		.wrap{width:1400px; 
+	 	height:1647px;
+		margin:0 auto;}
+		
+		.wrap .contents
+		{border:1px #f00 solid;}
+		
+	#topbar {height:40px; border-bottom:1px #a6a6a6 solid;}
+	.wrap{height:40px; width:982px;margin:0 auto}
+	#topbar .wrap{line-height:40px;} 
+	#topbar fieldset {float:right}
+	#topbar fieldset input[type="text"]
+	{width:277px; line-height:23px; padding:0 10px; margin-right:11px; vertical-align: middle;
+	border:0 none; border-left: 1px #666 solid;
+	border-top: 1px #666 solid;}
+	#topbar {background-image: url("images/topbar_3_01.png"); }
+	#topbar fieldset input[type="submit"]{height:47px; border:1px #000 solid; border-top:0 none;vertical-align: top;
+	width: 107px; border:1px #000 solid;}
+	
+	#header{height: 168px;
+	border-bottom:5px #12151f solid;}
+	
+	#header {position:relative;}
+	
+	#header .wrap{height:100%}
+	#header .menu{position:absolute; top:127px; left:0; width:100%; margin-top:4px;}
+	
+
+	
+</style>
+
+
+</head>
+
+<body>
+	<div id="topbar">
+		<div class="wrap">
+			<fieldset>
+				<legend class="ir">검색</legend>
+				<label for="search"></label>
+				<input type="text" id="search" /><input type="submit" value="검색"/>
+			</fieldset>
+		</div>
+	</div>
+		
+	<div id="header">
+		<div class="wrap">
+			<h1><a href="/"><img src="images/cube-logo.png" /></a></h1>
+				<div></div>
+				
+			<div class="menu">
+					<ul>
+						<li><a href="#"><img src="images/Creeators.png" /></a></li>
+						<li><a href="#"><img src="images/Portfolio_Box.png" /></a>
+						<li><a href="#"><img src="images/product_place.png" /></a></li>
+						<li><a href="#"><img src="images/Event.png" /></a></li>
+						<li><a href="#"><img src="images/webzine.png" /></a>
+							<ul>
+								<li><a href="#"><img src="images/cover_story.png" /></a></li>
+								<li><a href="#"><img src="images/creators_news.png" /></a></li>
+							</ul>
+						</li>
+					</ul>
+			</div>	
+		</div>
+	</div>
+
+
+</body>
+</html>

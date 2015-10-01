@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+*{margin:0; padding:0}
+html, body{height:100%}
+ul{list-style:none;}
+fieldset{border:0 none;}
+button,input[type="submit"]{cursor: pointer}
+
+.topbar{height:30px;border-bottom:1px #d5d0cc solid; background-color:#f8f8f8;}
+
+.topbar .topmenu {height:30px; width:990px;margin:0 auto;font-size:11pt;}
+.topbar .left_menu{float:left;}
+
+.topbar .right_menu ul>li {font-size:12pt; float:right; color:#666666}
+
+.ct_wrap{width:990px; height:107px; margin:0 auto}
+.ct_wrap .logo{width:326px; height:107px; margin-top:34px;float:left;}
+.ct_wrap .logo ul>li{float:left}
+
+.ct_wrap .search fieldset input[type="text"]
+ {border-color:#3b5999; width:238px; float:left;}
+
+
+.ct_wrap .logo ul{margin-top:20px;}
+.ct_wrap .logo>ul>li{margin-left:14px;}
+.ct_wrap .logo>ul>li:first-child{margin-left:0}
+.ct_wrap .logo li a{display:block; text-indent:-999999px;}
+.ct_wrap .logo li a.usecar {width:59px; height:14px; background:url("../images/top_quick_category_bestcar_1.png") no-repeat;}
+.ct_wrap .logo li a.bike {width:47px; height:14px; background:url("../images/top_quick_category_bike_2.png")no-repeat;}
+.ct_wrap .logo li a.item {width:47px; height:14px; background:url("../images/top_quick_category_goods_3.png")no-repeat;}
+.ct_wrap .logo li a.cooper {width:48px; height:14px; background:url("../images/top_quick_category_partner_4.png")no-repeat;}
+.ct_wrap .logo li a.event {width:36px; height:14px; background:url("../images/top_quick_category_event_1.png")no-repeat;}
+
+.ct_wrap .search {width:280px; height:73px; margin-left:61px;float:left;margin-top:19px}
+
+.ct_wrap .ad {width:244px; height:90px; margin-top:10px; float:right;}
+
+.menu_bar {width:990px; height:39px; margin:0 auto; background-color:#3b5999; clear:both}
+.menu_bar .bar_submenu li {float:left; padding:0 7px; line-height:39px;}
+.menu_bar .bar_submenu li:first-child{}
+.menu_bar .bar_submenu li a{display:block; text-indent:-999999px;}
+.menu_bar .bar_submenu li a.cyberstore {width:66px; height:14px; background:url("../images/topmainbar_menu_cybermaket_1.png")}
+.menu_bar .bar_submenu li a.nation{width:}

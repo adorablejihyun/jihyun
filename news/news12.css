@@ -1,0 +1,22 @@
+/* reset*/
+*{margin:0; padding:0;}
+ul,li{list-style:none;}
+
+
+		
+/* option */
+.border{border:1px red solid;}
+
+/* contents */
+section{width:900px; height:540px; margin:0 auto;}
+.head{margin:0 30px; border-bottom:3px #545454 solid; height:108px;}
+.head ul li{display:inline-block;}
+h1{padding:20px 0 0 0;}
+.head .promotion{float:right;margin-top:40px}
+
+/* article */
+.article{border:1px #f00 solid; width:840px; height:267px;
+		margin:0 auto}
+.contents ul li{float:left}
+.contents ul li img{margin-top:20px}
+.contents ul li a{color:#ccc; display:block; }

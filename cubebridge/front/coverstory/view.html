@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cube-Bridge</title>
+    <base href="file:///D:/project_jihyun/portfolio/cubebridge/" target="_self" />
+    <!-- <base href="http://adorablejihyun.dothome.co.kr/portfolio/cubebridge/" target="_self" /> -->
+
+    <link rel="stylesheet" href="lib/css/cubebridge_master.css">
+    <script type="text/javascript" src="lib/js/jquery-1.11.3.min.js"></script>
+
+        <script type="text/javascript">
+        $(document).ready(function(){
+
+            $('.icon-list').click(function(){
+                $('.story-list').removeClass().addClass('view-list')
+                    return false;
+            })
+
+            $('.icon-story').click(function(){
+                $('.view-list').removeClass().addClass('story-list')
+                    return false;
+            })
+
+            $('.fix_option').click(function(){
+                $(this).next('ul').slideToggle();
+            })
+
+
+        })
+
+    </script>
+
+</head>
+<body>
+
+<div class="topbar">
+        <div class="ct_wrap">
+            <fieldset>
+                <legend class="hide">검색</legend>
+                <label for="search" class="hide">검색어입력</label>
+                <input type="text" id="search"/>
+                <input type="submit" value="검색"/>
+            </fieldset>
+    </div>
+</div>
+
+<div class="header">
+    <div class="ct_wrap">
+
+        <!-- 로고 -->
+        <h1><a href="#"><img src="lib/images/h1_cubegridge_logo.png" alt="cubebirdge"/></a></h1>
+
+        <!-- 프로모션 -->
+        <div class="promotion">
+            <ul class="listNone">
+                <li class="ative">
+                    <a href=""><span class="hide">셈플 첫번째 이벤트 입니다. 해당 내용을 보시려면 텝을 누르세요</span></a>
+                    <div>
+                        <img src="lib/images/@promotion_event_1.jpg" alt="goodfood" />
+                        <div class="tx-descript">
+                            <strong>Event Area</strong>
+                            <p>예쁜 아이콘과 함께<br /> 이곳에 이벤트를 넣는것은<br /> 어떨까요?! <a href="" class="link_point">View</a></p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href=""><span class="hide">셈플 두번째 이벤트 입니다. 해당 내용을 보시려면 텝을 누르세요</span></a>
+                    <div>
+                        <img src="lib/images/@promotion_event_1.jpg" alt="goodfood" />
+                        <div class="tx-descript">
+                            <strong>Event Area</strong>
+                            <p>예쁜 아이콘과 함께<br /> 이곳에 이벤트를 넣는것은<br /> 어떨까요?! <a href="" class="link_point">View</a></p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href=""><span class="hide">셈플 세번째 이벤트 입니다. 해당 내용을 보시려면 텝을 누르세요</span></a>
+                    <div>
+                        <img src="lib/images/@promotion_event_1.jpg" alt="goodfood" />
+                        <div class="tx-descript">
+                            <strong>Event Area</strong>
+                            <p>예쁜 아이콘과 함께<br /> 이곳에 이벤트를 넣는것은<br /> 어떨까요?! <a href="" class="link_point">View</a></p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href=""><span class="hide">셈플 네번째 이벤트 입니다. 해당 내용을 보시려면 텝을 누르세요</span></a>
+                    <div>
+                        <img src="lib/images/@promotion_event_1.jpg" alt="goodfood" />
+                        <div class="tx-descript">
+                            <strong>Event Area</strong>
+                            <p>예쁜 아이콘과 함께<br /> 이곳에 이벤트를 넣는것은<br /> 어떨까요?! <a href="" class="link_point">View</a></p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="lnb">
+            <ul class="listNone">
+                <li><a href="#" class="creators"><span>creators</span></a></li>
+                <li><a href="#" class="portfolioBox"><span>portfolioBox</span></a></li>
+                <li><a href="#" class="productPlace"><span>productPlace</span></a></li>
+                <li><a href="#" class="event"><span>event</span></a></li>
+                <li><a href="#" class="webzine"><span>webzine</span></a>
+                    <div>
+                        <ul class="listNone ct_wrap">
+                            <li><a href="#">Cover Story</a></li>
+                            <li><a href="#">Creators</a></li>
+                            <li><a href="#">공연&amp;행사</a></li>
+                            <li><a href="#">Talent Association</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+</div>
+
+<!--coversotry list-->
+<div class="h2_subtitle">
+    <div class="ct_wrap">
+        <h2>
+            <img src="lib/images/h2_coverstory.png" alt="coverstory">
+            <span><img src="lib/images/coverstory_summ.png" alt="인기 Creator들의 Interview 내용을 보실 수 있습니다." /></span>
+        </h2>
+    </div>
+</div>
+
+
+<div id="cover_story" class="sub_page depth2">
+    <div class="ct_wrap">
+        <div class="left_section">
+            <div class="view-heading">
+                    <h3><img src="lib/images/h3_fatdoo.png" alt=""></h3>
+                    <strong><q>음악의 나의 스토리를 닮은 Master Piece!</q></strong>
+            </div>
+
+            <div class="view-interview">
+                <div class="normal_tap">
+                    <ul class="listNone base">
+                        <li class="on"><a href="#"><storng>interview</strong></a></li>
+                        <li><a href="#"><strong>photo</strong></a></li>
+                    </ul>
+                    <div class="opt_group">
+                        <a href="#"><img src="lib/images/adress_btn.png" alt="주소복사"></a>
+                        <a href="#"><img src="lib/images/get_btn.png" alt="퍼가기"></a>
+                    </div>
+                </div>
+
+                <div id="cont_interview" style="display:none">
+                    <div class="interview-contents">
+                        <img src="lib/images/interview_con.png" alt="">
+                        <p>감성 힙합의 대표주자, 원써겐 그리고 국내 최고의
+                        스토리텔러, 팻두의 크리스마스의 소망과 희망을
+                        담은 노래, [크리스마스엔 생겼으면 좋겠다]<br />
+                        지난해, [기억을 지워주는 병원]과 [기억을 지워주는
+                        병원2]를 발표해 지금까지도 음원챠트에 오르내리는
+                        등 많은 사랑을 받았던 원써겐&amp;팻두가 세번째 싱글
+                        [크리스마스엔 생겼으면 좋겠다]를 발표한다.<br />
+                        [크리스마스엔 생겼으면 좋겠다]는 제목에서도
+                        알 수 있듯이 다가오는 크리스마스에 이루어졌으면
+                        하는 소망을 이야기하는 신나는 템포의 힙합이다.
+                        아웃사이더, 버벌진트, 조PD 등 수 많은 힙합
+                        아티스트들과 호흡을 맞춘 영롱하고 맑은 목소리의
+                        보컬 샛별이 함께해 더욱 원써겐&amp;팻두의 음악에
+                        밝은 색깔을 입혔다. 두번째 트랙, [공항에서
+                        돌아오는 길]은 원써겐 정규2집에 수록되었던 곡에
+                        팻두의 랩을 입혀 재완성 되었다.</p>
+                    </div>
+
+
+
+                </div>
+
+                <div id="cont_photo" style="">
+                    <div class="photo_contents">
+                        <img src="lib/images/1sagain.png" alt="">
+                    </div>
+
+                </div>
+        </div>
+
+
+
+
+        <div class="sns-option">
+            <span class="like-info"><a href="#" class=strcolor><span class="icon-heart"></span>Like</a></span>
+            <span class="sns-info">
+            <a href="#"><img src="lib/images/icon_facebook.png" alt=""></a>
+            <a href="#"><img src="lib/images/icon_twitter.png" alt=""></a></span>
+        </div>
+
+        <div class="mycontent">
+
+            <div class="cube">
+                <h4><img src="lib/images/h4_cube.png" alt="큐브"></h4>
+                <div><img src="lib/images/brucelee_img.png" alt=""></div>
+            </div>
+            <div class="portfolio">
+                <h4><img src="lib/images/h4_portfolio.png" alt="포트폴리오"></h4>
+                <ul class="listNone">
+                    <li><a href="#"><img src="lib/images/mushroom_img.png" alt=""></a></li>
+                    <li><a href="#"><img src="lib/images/cat_img.png" alt=""></a></li>
+                    <li><a href="#"><img src="lib/images/moon_img.png" alt=""></a></li>
+                    <li><a href="#"><img src="lib/images/sun_img.png" alt=""></a></li>
+                    <li><a href="#"><img src="lib/images/cloud_img.png" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="heartlist">
+            <span class="strcolor block">1263<i class="icon-heart"></i>Like</span>
+
+            <ul>
+                <li><a href="#"><img src="" alt="" /></a></li>
+                <li><a href="#"><img src="" alt="" /></a></li>
+                <li><a href="#"><img src="" alt="" /></a></li>
+                <li><a href="#"><img src="" alt="" /></a></li>
+                <li><a href="#"><img src="" alt="" /></a></li>
+                <li><a href="#"><img src="" alt="" /></a></li>
+                <li><a href="#"><img src="" alt="" /></a></li>
+                <li><a href="#"><img src="" alt="" /></a></li>
+                <li><a href="#"><img src="" alt="" /></a></li>
+                <li><a href="#"><img src="" alt="" /></a></li>
+                <li><a href="#"><img src="" alt="" /></a></li>
+            </ul>
+
+        </div>
+
+            <div class="comment-count">
+                <a href="">12개 Comment가 있습니다.</a>
+            </div>
+
+            <div class="comment-list">
+
+                <ul class="listNone">
+                    <li>
+                        <div class="comment_thumb"><img src="lib/images/comment_img1.png" alt=""></div>
+                        <div class="likebox">
+                            <div>
+                                <div>
+                                    <button class="strcolor">Like</button>
+                                    <span class="cut-line"></span>
+                                    <button>댓글달기</button>
+                                </div>
+                            </div>
+                        </div>
+                        <span class="comment-info">
+                            <strong>올바른청년</strong><span>님</span>
+                            <span class="cut-line"></span><small>4월 17일</small>
+                        </span>
+                        <p>에일리언니!!!!!!! 완전짱이에요!!! 이게 제 핸폼이 아니라ㅜㅜㅜ<br />
+                        어쨋건 에일리 언니가 가수아이돌 보다도 제일 좋아요!!! 하루에 언니 노래 10번 정도 들어옇ㅎㅎㅎ<br />
+                        그러니깐 화이팅!!!!! ^^ ♥♥
+                        </p>
+                    </li>
+
+                    <li>
+                        <div class="comment_thumb"><img src="lib/images/content_img2.png" alt=""></div>
+
+
+
+                        <div class="likebox">
+                            <div>
+                                <div>
+                                    <button class="strcolor">Like</button>
+                                    <span class="cut-line"></span>
+                                    <button>댓글달기</button>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <span class="comment-info">
+                            <strong>김숙희</strong><span>님</span>
+                            <span class="cut-line"></span><small>4월 17일</small>
+                        </span>
+                        <p>대한민국 가요계가 고작 무슨 버슼 버슼 이가 다 접수한당가 한심스런수준이구만 쯧쯧</p>
+
+                        <div class="recomment">
+                            <ul class="listNone">
+                                <li>
+                                    <div class="comment-wrap">
+
+                                            <div class="comment_thumb"><img src="lib/images/daniel_img.png" alt=""></div>
+                                            <div class="likebox">
+                                                <div>
+                                                    <div>
+                                                        <button class="strcolor">Like</button>
+                                                        <span class="cut-line"></span>
+                                                        <button>댓글달기</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <span class="comment-info">
+                                                <strong>다니엘</strong><span>님</span>
+                                                <span class="cut-line"></span><small>4월 17일</small>
+                                            </span>
+                                            <p>관심 가져 주셔서 감사합니다~</p>
+                                </div>
+                                </li>
+                                <li class="odd">
+                                    <div class="comment-wrap">
+
+                                            <div class="comment_thumb"><img src="lib/images/content_img2.png" alt=""></div>
+                                            <div class="likebox">
+                                                <div>
+                                                    <div>
+                                                        <button class="strcolor">Like</button>
+                                                        <span class="cut-line"></span>
+                                                        <button>댓글달기</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <span class="comment-info">
+                                                <strong>김숙희</strong><span>님</span>
+                                                <span class="cut-line"></span><small>4월 17일</small>
+                                            </span>
+                                            <p>널 좋아해. 널 좋아해. 널 좋아해. 널 좋아해. 널 좋아해. 널 좋아해. 널 좋아해. 널 좋아해. 널 좋아해. </p>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                     </li>
+                </ul>
+
+            </div>
+
+            <div class="comment-write">
+                <div class="comment-writer"><img src="lib/images/content_img2.png" alt=""></div>
+                <div class="comment-write-area">
+                    <textarea name="name" rows="" cols="">로그인 후 댓글 입력이 가능합니다.</textarea>
+                </div>
+                <div class="cw-submit">
+                    <input type="submit">
+                </div>
+            </div>
+
+
+        </div>
+
+
+        <div class="right_section">
+
+        </div>
+
+</div>
+
+
+
+
+</div>
+
+<div class="footer">
+    <div class="ct_wrap">
+        <strong>Talent Association</strong><span>Korean Culture를 만들어 가는 것은 여러분입니다. 다양한 분야의 단체들이 한국의 문화를 후원합니다</span>
+        <div class="partner_bunch">
+
+        </div>
+    </div>
+    <address>
+        <ul class="listNone">
+            <li><a href="#"><span>회사소개</span></a></li>
+            <li><a href="#"><span>광고</span></a></li>
+            <li><a href="#"><span>검색등록</span></a></li>
+            <li><a href="#"><span>제휴안내</span></a></li>
+            <li><a href="#"><span>이용약관</span></a></li>
+            <li><a href="#"><span>개인정보취급방침</span></a></li>
+            <li><a href="#"><span>고객센터</span></a></li>
+            <li><a href="#"><span>CubeBirdge</span></a></li>
+            <li><a href="#"><span>SiteMap</span></a></li>
+            <li><a href="#"><span>공지사항</span></a></li>
+        </ul>
+        <span class="copy">Copyright &copy; Ocean’s People. All Rights Reserved.</span>
+    </address>
+</div>
+
+
+</body>
+</html>
