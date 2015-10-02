@@ -3,18 +3,23 @@
 *{margin:0; padding:0}
 html, body{height:100%}
 ul{list-style:none;}
+a{text-decoration: none;}
 fieldset{border:0 none;}
 button,input[type="submit"]{cursor: pointer}
 
+header{overflow:hidden; width:100%}
 .topbar{height:30px;border-bottom:1px #d5d0cc solid; background-color:#f8f8f8;}
 
-.topbar .topmenu {height:30px; width:990px;margin:0 auto;font-size:11pt;}
-.topbar .left_menu{float:left;}
-
-.topbar .right_menu ul>li {font-size:12pt; float:right; color:#666666}
+.topbar .topmenu {height:30px; width:990px; margin:0 auto; font-size:11pt;}
+.topbar .left_menu{float:left; padding:0 5px; line-height:30px;}
+.topbar .left_menu span{font-size:12px; margin-top:10px; color:#000}
+.topbar .right_menu{float:right;}
+.topbar .right_menu span{font-size:12px; color:#666666; margin-top:10px}
+.topbar .right_menu ul>li {font-size:12pt; float:left; color:#666666;padding:0 5px;line-height:30px;}
 
 .ct_wrap{width:990px; height:107px; margin:0 auto}
-.ct_wrap .logo{width:326px; height:107px; margin-top:34px;float:left;}
+.ct_wrap .logo{width:326px; height:107px;float:left;}
+.ct_wrap .logo img{margin-top:34px;}
 .ct_wrap .logo ul>li{float:left}
 
 .ct_wrap .search fieldset input[type="text"]
@@ -35,9 +40,50 @@ button,input[type="submit"]{cursor: pointer}
 
 .ct_wrap .ad {width:244px; height:90px; margin-top:10px; float:right;}
 
-.menu_bar {width:990px; height:39px; margin:0 auto; background-color:#3b5999; clear:both}
-.menu_bar .bar_submenu li {float:left; padding:0 7px; line-height:39px;}
+.menu_bar {width:990px; height:39px; margin:0 auto; background-color:#3b5999; clear:both;}
+.menu_bar .bar_submenu li {float:left; padding:0 11px;}
 .menu_bar .bar_submenu li:first-child{}
 .menu_bar .bar_submenu li a{display:block; text-indent:-999999px;}
-.menu_bar .bar_submenu li a.cyberstore {width:66px; height:14px; background:url("../images/topmainbar_menu_cybermaket_1.png")}
-.menu_bar .bar_submenu li a.nation{width:}
+.menu_bar .bar_submenu li a.cyberstore {width:66px; height:14px;margin-top:12px;background:url("../images/topmainbar_menu_cybermaket_1.png")}
+.menu_bar .bar_submenu li a.nation{width:67px; height:15px;margin-top:12px; background:url("../images/topmainbar_menu_koreacar_2.png")}
+.menu_bar .bar_submenu li a.import{width:66px; height:15px;margin-top:12px; background:url("../images/topmainbar_menu_importcar_3.png")}
+.menu_bar .bar_submenu li a.sell{width:49px; height:15px;margin-top:12px; background:url("../images/topmainbar_menu_mycarsell_4.png")}
+.menu_bar .bar_submenu li a.community{width:51px; height:14px;margin-top:12px; background:url("../images/topmainbar_menu_comunity_5.png")no-repeat;}
+.menu_bar .bar_submenu li a.more {width:51px; height:15px;margin-top:12px; background:url("../images/topmainbar_menu_moreveiw_6.png")}
+.menu_bar span {float:right;margin-top:12px; font-size:12px; color:#ffffff; margin-right:11px;}
+
+.menu_bar2 {width:990px; height:37px; margin:0 auto; border-bottom: 1px #c7cbce solid; clear:both}
+.menu_bar2 .bar_submenu2 ul {overflow:hidden;}
+.menu_bar2 .bar_submenu2 li{float:left; padding:0 5px;}
+.menu_bar2 .bar_submenu2 li a{display:block; text-indent:-99999px;}
+.menu_bar2 .bar_submenu2 li a.koreacar {width:53px; height:13px; margin-top:12px; background:url("../images/main_cybermaket_sub_koreacar_1.png")}
+.menu_bar2 .bar_submenu2 li a.importcar {width:54px; height:13px; margin-top:12px; background:url("../images/main_cybermaket_sub_importcar_2.png")}
+.menu_bar2 .bar_submenu2 li a.car {width:53px; height:13px; margin-top:12px; background:url("../images/main_cybermaket_sub_car_3.png")}
+.menu_bar2 .bar_submenu2 li a.sport {width:64px; height:13px; margin-top:12px; background:url("../images/main_cybermaket_sub_sportcar_4.png")}
+.menu_bar2 .bar_submenu2 li a.suv {width:66px; height:13px; margin-top:12px; background:url("../images/main_cybermaket_sub_rv_5.png")}
+.menu_bar2 .bar_submenu2 li a.ben {width:68px; height:13px; margin-top:12px; background:url("../images/main_cybermaket_sub_ben_6.png")}
+.menu_bar2 .bar_submenu2 li a.tunning {width:53px; height:13px; margin-top:12px; background:url("../images/main_cybermaket_sub_tuing_7.png")}
+.menu_bar2 .bar_submenu2 li a.oldcar {width:54px; height:13px; margin-top:12px; background:url("../images/main_cybermaket_sub_old_8.png")}
+.menu_bar2 .bar_submenu2 li a.autogallery {width:74px; height:13px; margin-top:12px; background:url("../images/main_cybermaket_sub_auto_9.png")}
+.menu_bar2 span{float:right; font-size:12px; margin-top:12px;}
+
+.contents{margin:5px auto 0; width:990px;}
+.contents .ad_1{width:520px; height:100px; border:1px #c7cbce solid; float:left}
+.contents .ad_2{width:220px; height:100px; border:1px #c7cbce solid; margin-left:4px; float:left}
+
+.contents .loginbox {width:211px; height:81px; border:1px #c7cbce solid; float:right; padding:12px 10px 9px 14px;}
+.contents .loginbox fieldset input[type="submit"]
+ {border-color:#a7abb3; width:55px; height:55px;}
+
+
+#contents {width:990px; margin:10px auto 0; }
+#contents section{width:748px;}
+#contents .main_ad .main1{float:left;width:400px; height:231px;}
+#contents .main_ad .main2{float:right; width:336px;}
+#contents .main_ad .main2 li{height:65px; border-top:1px #c7cbce solid;padding:5px 0; margin-bottom:5px;}
+#contents .main_ad .main2 li:first-child{border:none;padding-top:0}
+#contents .main_ad .main2 li img {float:left; cursor: pointer;}
+#contents .main_ad .main2 li a{display:block; padding-left:123px; padding-top:5px;font-size:12px; color:#000;line-height:18px;}
+#contents .main_ad .main2 li a strong{}
+
+#contents .main_ad .main3 {border-top:1px #c7cbce solid;}
