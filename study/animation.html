@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>animation</title>
+
+    <style>
+
+    *{margin:0; padding:0;}
+    ul{list-style:none;}
+
+    div.menu {width:200px; border:1px solid; margin:0 auto;}
+    div>ul{border:1px #f00 solid; margin:10px;}
+    div>ul>li{line-height:24px; padding:0 10px; border-top:1px #f00 solid;}
+    div>ul>li:first-child{border-top:0}
+    div>ul>li>div{height:0; overflow:hidden; font-size:10px; line-height:12px; transition: 1.5s}
+    div>ul>li>div:target{height:100px; overflow-y:scroll}
+
+    p{color: #f0f}
+    p:target{color:#000}
+    </style>
+
+</head>
+<body>
+    <div class="menu">
+        <ul>
+            <li><a href="#firstMenu1">text</a>
+                <div id="firstMenu1">
+                동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세.
+                무궁화 삼천리 화려강산 대한 사람, 대한으로 길이 보전하세
+                동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세.
+                무궁화 삼천리 화려강산 대한 사람, 대한으로 길이 보전하세
+                </div>
+            </li>
+            <li><a href="#firstMenu2">text</a>
+                <div id="firstMenu2">
+                동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세.
+                무궁화 삼천리 화려강산 대한 사람, 대한으로 길이 보전하세
+                동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세.
+                무궁화 삼천리 화려강산 대한 사람, 대한으로 길이 보전하세
+                </div>
+            </li>
+            <li><a href="#firstMenu3">text</a>
+                <div id="firstMenu3">
+                동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세.
+                무궁화 삼천리 화려강산 대한 사람, 대한으로 길이 보전하세
+                동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세.
+                무궁화 삼천리 화려강산 대한 사람, 대한으로 길이 보전하세
+                </div>
+            </li>
+            <li><a href="#firstMenu4">text</a>
+                <div id="firstMenu4">
+                동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세.
+                무궁화 삼천리 화려강산 대한 사람, 대한으로 길이 보전하세
+                동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세.
+                무궁화 삼천리 화려강산 대한 사람, 대한으로 길이 보전하세
+                </div>
+            </li>
+            <li><a href="#firstMenu5">text</a>
+                <div id="firstMenu5">
+                동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세.
+                무궁화 삼천리 화려강산 대한 사람, 대한으로 길이 보전하세
+                동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세.
+                무궁화 삼천리 화려강산 대한 사람, 대한으로 길이 보전하세
+                </div>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>

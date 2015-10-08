@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+
+    body{background:#ccc;}
+    .box{width:50%; border:1px #f00 solid; height:300px;
+        box-sizing: border-box;
+        -webkit-box-sizing:border-box;float:left}
+
+    @media screen and (max-width:900px)
+        {.box{float:none;width:100%;}}
+
+    </style>
+</head>
+<body>
+    <div class="box">box</div>
+    <div class="box">box</div>
+
+</body>
+</html>
